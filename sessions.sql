@@ -1,3 +1,8 @@
+EXEC SP_WHO
+EXEC SP_WHO2
+
+
+
 SELECT 
     DB_NAME(dbid) as DBName, 
     COUNT(dbid) as NumberOfConnections,
